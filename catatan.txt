@@ -1,0 +1,16 @@
+- buat folder project terlebih dahulu
+- npm init -y
+- npm install express --save
+- npm install body-parser --save
+- npm install mysql --save
+- npm install --save-dev nodemon
+- npm install password-hash
+- npm start
+
+==============
+cara mengecek api pada postman
+untuk mengirim data pilih option di postman "x-www-form-urlencode"
+
+==============
+cara baca password hash pada saat login
+passwordHash.verify('password123', hashedPassword);
